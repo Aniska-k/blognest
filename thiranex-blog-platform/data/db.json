@@ -1,0 +1,124 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aniska K",
+      "email": "aniskak.ug.25.it@francisxavier.ac.in",
+      "password_hash": "$2a$12$rs7X9d/VqKM2MpnHU9rcfOytcoNtal52jR70pTmADr4yLqFqKfhD6",
+      "created_at": "2026-10-02T09:45:48.162Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": 2,
+      "user_id": 1,
+      "title": "💻 My Journey into Web Development",
+      "content": "Web development has become one of my favorite areas to explore. From learning HTML and CSS to working with JavaScript and full-stack technologies, every project teaches me something new. I’m excited to keep learning and building useful applications.",
+      "created_at": "2026-10-02T09:50:23.830Z",
+      "updated_at": "2026-10-02T09:50:23.830Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "title": "🤖 Exploring Artificial Intelligence",
+      "content": "Artificial Intelligence is changing the way we solve problems and build applications. I’m currently exploring concepts such as machine learning, generative AI, and AI-powered applications. The possibilities are really exciting!",
+      "created_at": "2026-10-02T09:50:49.824Z",
+      "updated_at": "2026-10-02T09:50:49.824Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "title": "🚀 Why Students Should Build Projects",
+      "content": "Learning programming through theory is important, but building projects helps turn that knowledge into practical skills. Even a small project can teach us about problem-solving, debugging, design, and working with real technologies.",
+      "created_at": "2026-10-02T09:51:11.490Z",
+      "updated_at": "2026-10-02T09:51:11.490Z"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "title": "📚 Learning from Hackathons",
+      "content": "Hackathons are a great way to learn by building. They encourage creativity, teamwork, and problem-solving under time constraints. More importantly, they give students an opportunity to turn an idea into a working prototype.",
+      "created_at": "2026-10-02T09:51:44.155Z",
+      "updated_at": "2026-10-02T09:51:44.155Z"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "title": "🔐 The Importance of Cybersecurity",
+      "content": "As more applications and services move online, cybersecurity has become increasingly important. Developers need to think about authentication, data protection, secure APIs, and responsible handling of user information while building applications.",
+      "created_at": "2026-10-02T09:52:13.251Z",
+      "updated_at": "2026-10-02T09:52:13.251Z"
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "title": "🌱 Keep Learning, Keep Building",
+      "content": "Technology changes quickly, so continuous learning is important for every developer. Instead of trying to learn everything at once, focusing on one concept at a time and applying it through projects can make the learning process much more effective.",
+      "created_at": "2026-10-02T09:52:40.014Z",
+      "updated_at": "2026-10-02T09:52:40.014Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "post_id": 7,
+      "user_id": 1,
+      "content": "so true..",
+      "created_at": "2026-10-02T10:00:35.717Z",
+      "updated_at": "2026-10-02T10:00:35.717Z"
+    },
+    {
+      "id": 3,
+      "post_id": 6,
+      "user_id": 1,
+      "content": "amazing approach",
+      "created_at": "2026-10-02T10:00:49.387Z",
+      "updated_at": "2026-10-02T10:00:49.387Z"
+    },
+    {
+      "id": 4,
+      "post_id": 5,
+      "user_id": 1,
+      "content": "i do have won in many hackathons",
+      "created_at": "2026-10-02T10:01:06.940Z",
+      "updated_at": "2026-10-02T10:01:06.940Z"
+    },
+    {
+      "id": 5,
+      "post_id": 5,
+      "user_id": 1,
+      "content": "such a great experience",
+      "created_at": "2026-10-02T10:01:16.705Z",
+      "updated_at": "2026-10-02T10:01:16.705Z"
+    },
+    {
+      "id": 6,
+      "post_id": 2,
+      "user_id": 1,
+      "content": "it is indeed interesting",
+      "created_at": "2026-10-02T10:01:34.446Z",
+      "updated_at": "2026-10-02T10:01:34.446Z"
+    },
+    {
+      "id": 7,
+      "post_id": 3,
+      "user_id": 1,
+      "content": "quite new to me",
+      "created_at": "2026-10-02T10:01:46.211Z",
+      "updated_at": "2026-10-02T10:01:46.211Z"
+    },
+    {
+      "id": 8,
+      "post_id": 4,
+      "user_id": 1,
+      "content": "for their improvement",
+      "created_at": "2026-10-02T10:02:04.751Z",
+      "updated_at": "2026-10-02T10:02:04.751Z"
+    }
+  ],
+  "nextIds": {
+    "users": 2,
+    "posts": 8,
+    "comments": 9
+  }
+}
